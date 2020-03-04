@@ -1,0 +1,19 @@
+div.main{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	/*display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-basis: 1;*/
+}
+.main{
+	display: flex;
+}
+.main .card{
+	padding: 10px;
+	margin: 10px;
+	background-color: #EEEEEE;
+	box-shadow: 10px 10px 5px lightgrey;
+}
